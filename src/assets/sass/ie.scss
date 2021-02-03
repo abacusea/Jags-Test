@@ -1,0 +1,77 @@
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  section.offerings .cols-wrap .col {
+    display: block;
+    .col-hvr{
+      padding: 60px 30px;
+      display: block;
+      left: 40px;
+      right: 40px;
+      width: auto;
+      max-width: auto;
+    }
+    .col-lbl{
+      margin-top: 240px;
+    }
+  }
+
+  .timeline-wrapper {
+    .timeline-item {
+      .step{
+        &:before{
+          top: 27px;
+        }
+        &:after{
+          top: 30px;
+        }
+      }
+    }
+  }
+  section.see-more{
+     .cols-wrap {
+       max-height: 500px;
+      .col {
+        .col-lbl {
+          .lbl-inner{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-flow: column;
+            h3{
+              width: 265px;
+            }
+          }
+        }
+      }
+    }
+  }
+  section.banner{
+    .hero-banner-arrow-controls, .carousel-wrap .carousel-controls {
+      .slick-prev, .slick-next{
+        width: 40px;
+        .icomoon{
+          margin-left: -5px;
+        }
+      }
+    }
+  }
+  .carousel-wrap{
+     .carousel-controls{
+      .slick-prev, .slick-next{
+        width: 40px;
+        .icomoon{
+          margin-left: -5px;
+        }
+      }
+    }
+  }
+  .materials-slider{
+    .slick-arrow{
+      &.slick-prev, &.slick-next{
+        width: 40px;
+        .icomoon{
+          margin-left: -5px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+// Bootstraping
+@import "plugins/bootstrap/functions";
+@import "plugins/bootstrap/variables";
+@import "plugins/bootstrap/mixins";
+@import "plugins/bootstrap/root";
+@import "plugins/bootstrap/reboot";
+@import "plugins/bootstrap/grid";
+
+// Utils
+@import "util/mixins";
+@import "util/spaces";
+
+// Base
+@import "base/variables";
+@import "base/base";
+@import "base/icons";
+@import "base/typography";
+
+// Normalise
+@import "vendor/normalise";
+
+ // includes
+@import "includes/home";
+
+// Components
+@import "components/footer";
+@import "components/banner";
+@import "components/header";
+

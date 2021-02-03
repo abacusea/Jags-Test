@@ -1,0 +1,33 @@
+.banner_bg{
+	background-color: $color-blue;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	.banner_circle_1{
+		border: 24vh solid rgba(255, 255, 255, 0.04);
+	    width: 55vw;
+	    height: 100vh;
+	    border-radius: 50%;
+	    position: absolute;
+	    top: -55%;
+	    left: -15%;
+	}
+	.banner_circle_2{
+		border: 24vh solid rgba(255, 255, 255, 0.04);
+	    width: 55vw;
+	    height: 100%;
+	    border-radius: 50%;
+	    position: absolute;
+	    bottom: -55%;
+	    left: -15%;
+	}
+	.banner_circle_3{
+		border: 24vh solid rgba(255, 255, 255, 0.04);
+	    width: 55vw;
+	    height: 100%;
+	    border-radius: 50%;
+	    position: absolute;
+	    top: -55%;
+	    right: -15%;
+	}
+}
